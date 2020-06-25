@@ -9,6 +9,17 @@ public class WelcomeConfiguration {
 
     private String message = "Welcome to TechPrimers";
 
+	public String getLala() {
+		return lala;
+	}
+
+	public void setLala(String lala) {
+		this.lala = lala;
+	}
+
+	private  String lala;
+
+
     public String getMessage() {
         return message;
     }

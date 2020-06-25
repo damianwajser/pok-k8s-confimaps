@@ -4,4 +4,4 @@ metadata:
   name: config-example
 data:
   application.properties: |-
-    welcome.message=volvio a cambiar
+    welcome.message=hola desde k8s

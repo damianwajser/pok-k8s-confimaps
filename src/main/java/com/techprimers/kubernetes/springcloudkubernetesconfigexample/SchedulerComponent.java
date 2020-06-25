@@ -14,5 +14,6 @@ public class SchedulerComponent {
     @Scheduled(fixedDelay = 3000)
     public void schedule() {
         System.out.println(config.getMessage());
+		System.out.println(config.getLala());
     }
 }
