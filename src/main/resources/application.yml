@@ -1,5 +1,6 @@
 logging.level.org.springframework.cloud.kubernetes: DEBUG
 spring.application.name: config-example
+spring.cloud.kubernetes.config.namespace: default
 
 management:
   endpoints:
